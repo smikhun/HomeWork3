@@ -19,13 +19,29 @@ public class Gazel {
     }
 
     public void addWorker(Worker worker){
-        workingStaff.add(worker);
+        if(workingStaff.size() < seatcsize)
+            { workingStaff.add(worker);
+        }else {
+            System.out.print("Sorry, no free seatc in you car");
+        }
 
     }
 
     public void showWorker(){
         for (int i=0; i < workingStaff.size(); i++ ){
             System.out.println(workingStaff.get(i).name);
+        }
+
+
+    }
+
+    public void ChengPosition(Gazel gazel, String goCyti){
+        gazel.position = goCyti;
+    }
+
+    public  void cheking(){
+        for (int i = 0; i < workingStaff.size(); i++){
+            //if (workingStaff.get(i).name.)
         }
     }
 }

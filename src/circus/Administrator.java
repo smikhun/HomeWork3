@@ -12,5 +12,6 @@ public class Administrator extends Employee {
 
     public void workingPeople(){
 
+
     }
 }

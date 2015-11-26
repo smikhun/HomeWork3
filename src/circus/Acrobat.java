@@ -8,11 +8,11 @@ public class Acrobat extends Employee {
 
     Acrobat(String name, String passportdata,double salary){
         super(name,passportdata,salary);
-        this.alcoholLevel = 0;
+        this.alcoholLevel = (int) (Math.random()*10);
     }
 
     public int checkingAlcohol(Acrobat acrobat){
-        acrobat.alcoholLevel = (int) (Math.random()*10);
         return acrobat.alcoholLevel;
     }
+
 }
