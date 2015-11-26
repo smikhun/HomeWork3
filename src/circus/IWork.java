@@ -5,6 +5,6 @@ package circus;
  */
 public interface IWork {
 
-    public void Work(Employee name);
+    public void Work();
 
 }

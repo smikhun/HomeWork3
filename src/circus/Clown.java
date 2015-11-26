@@ -12,11 +12,21 @@ public class Clown extends Employee implements IWork {
 
     }
 
-    public ua.artcode.circus.Clown getClown(ua.artcode.circus.Clown clown){
+    public Clown getClown(Clown clown){
         return clown;
     }
 
-    public void Work(Employee workname){
-        workname.ex +=1 ;
+    public void addClown(){
+
+    }
+
+    public void Work(){
+         System.out.println("Clown worked");
+        addExp();
+
+    }
+
+    public void addExp(){
+        experience +=1;
     }
 }
