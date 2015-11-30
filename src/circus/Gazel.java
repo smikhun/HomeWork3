@@ -12,7 +12,7 @@ public class Gazel {
     private int seatcsize;
 
     Gazel(int gas, String position, int seatcsize){
-        this.workingStaff = new ArrayList<>();
+        //this.workingStaff = new ArrayList<>();
         this.gas = gas;
         this.position = position;
         this.seatcsize = seatcsize;
