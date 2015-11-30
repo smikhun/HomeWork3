@@ -3,7 +3,7 @@ package circus;
 /**
  * Created by Andriy on 26.11.2015.
  */
-public class Acrobat extends Employee {
+public class Acrobat extends Employee implements IWork{
     int alcoholLevel;
 
     Acrobat(String name, String passportdata,double salary){
@@ -15,4 +15,8 @@ public class Acrobat extends Employee {
         return acrobat.alcoholLevel;
     }
 
+    @Override
+    public void Work() {
+        System.out.println("Acrobat worked");
+    }
 }

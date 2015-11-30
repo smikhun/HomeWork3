@@ -3,7 +3,7 @@ package circus;
 /**
  * Created by Andriy on 26.11.2015.
  */
-public class Worker {
+public class  Worker {
     String name;
     String passportdata;
     double salary;
